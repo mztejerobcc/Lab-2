@@ -28,4 +28,4 @@ int main() {
     The exact result will be 6.33333 because the output is a double due to y being a double.
     
 5. What will be the exact output for "Result 5"? How does static_cast change the calculation?\
-    The exact result will be 2.4 because y is cast as a double, which causes the output to be a double.
+    The exact result will be 2.4 because b is cast as a double, which causes the output to be a double.
