@@ -16,7 +16,7 @@ int main() {
     cin >> slices_per_person;
 
     int remainder = (slices_per_person * people) % slices_per_pizza; // checks if numbers divide evenly
-    int pizzas = (slices_per_person * people) / slices_per_pizza + (remainder > 0); // logic statement adds a pizza if the the numbers don't divide evenly
+    int pizzas = (slices_per_person * people) / slices_per_pizza + (remainder > 0); // logic statement adds a pizza if there will be extra slices
     int leftover_slices = (pizzas * slices_per_pizza) % (slices_per_person * people); // calculates leftover slices using number of pizzas
 
     // Challenge
